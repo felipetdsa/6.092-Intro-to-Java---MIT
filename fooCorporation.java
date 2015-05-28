@@ -6,7 +6,6 @@
  * Foo Corp requires that an employee not work more than 60 hours in a week. 
  */
 
-
 public class FooCorporation {
 	public static String paym(int hw, double sal){
 		if (hw > 60){
@@ -16,7 +15,7 @@ public class FooCorporation {
 		}else if (hw > 40){
 			return ("$" + String.valueOf(sal*40 + (hw-40)*(1.5 * sal)));
 		}
-		return null;
+		return ("$" + String.valueOf(sal*hw));
 	}
 	public static void main(String[] arguments){
 		System.out.println("Employee 1: " + paym(35, 7.50));
