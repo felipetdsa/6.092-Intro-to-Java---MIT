@@ -1,11 +1,12 @@
 /*
  *Assignment 3
+ *
  *Find the best and second best times.
  *Print the best and second best names and index.
  *
  *By felipetdsa@gmail.com
  * PS: I will make another version of program called Marathon2.java
- *        to try another methods.
+ *        to try others methods.
  */
 
 
