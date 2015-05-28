@@ -1,4 +1,6 @@
 /*
+ *Assignment 3
+ *
  * fooCorporation
  * Program to calculate how much to pay their hourly employees
  * State of MA  requires that hourly employees be paid at least $8.00 an hour
