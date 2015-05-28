@@ -9,15 +9,15 @@
  */
 
 public class FooCorporation {
-	public static String paym(int hw, double sal){
-		if (hw > 60){
+	public static String paym(int hoursWorked, double salary){
+		if (hoursWorked > 60){
 			return ("can't work more than 60 hours/week");
-		}else if (sal < 8.00){
+		}else if (salary < 8.00){
 			return ("can't pay less than $8.00/hour");
-		}else if (hw > 40){
-			return ("$" + String.valueOf(sal*40 + (hw-40)*(1.5 * sal)));
+		}else if (hoursWorked > 40){
+			return ("$" + String.valueOf(salary*40 + (hoursWorked-40)*(1.5 * salary)));
 		}
-		return ("$" + String.valueOf(sal*hw));
+		return ("$" + String.valueOf(salary*hoursWorked));
 	}
 	public static void main(String[] arguments){
 		System.out.println("Employee 1: " + paym(35, 7.50));
