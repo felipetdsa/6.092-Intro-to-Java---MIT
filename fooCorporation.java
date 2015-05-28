@@ -2,6 +2,7 @@
  * fooCorporation
  * Program to calculate how much to pay their hourly employees
  * State of MA  requires that hourly employees be paid at least $8.00 an hour
+ * If employee work more than 40 hours a week, overtime hours will be payed at 1.5 times their base pay
  * Foo Corp requires that an employee not work more than 60 hours in a week. 
  */
 
